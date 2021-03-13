@@ -52247,7 +52247,7 @@ module.exports={
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/RavenDevKit/ravencore-lib.git"
+    "url": "https://github.com/dataturk/ravencore-lib.git"
   },
   "browser": {
     "request": "browser-request"
@@ -52261,7 +52261,7 @@ module.exports={
     "lodash": "=3.10.1"
   },
   "devDependencies": {
-    "ravencore-build": "OverstockMedici/ravencore-build",
+    "ravencore-build": "dataturk/ravencore-build",
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.8.10",

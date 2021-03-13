@@ -246,8 +246,8 @@ git checkout -b remove/some-file
 
 We expect pull requests to be rebased to the master branch before merging:
 ```sh
-git remote add OverstockMedici git@github.com:OverstockMedici/ravencore.git
-git pull --rebase OverstockMedici master
+git remote add dataturk git@github.com dataturk/ravencore.git
+git pull --rebase dataturk master
 ```
 
 Note that we require rebasing your branch instead of merging it, for commit readability reasons.
@@ -258,11 +258,11 @@ git push origin your_branch_name
 git push origin feature/some-new-stuff
 git push origin fix/some-bug
 ```
-Finally go to [github.com/RavenDevKit/ravencore](https://github.com/RavenDevKit/ravencore) in your web browser and issue a new pull request.
+Finally go to [github.com/dataturk/ravencore](https://github.com/dataturk/ravencore) in your web browser and issue a new pull request.
 
 Main contributors will review your code and possibly ask for changes before your code is pulled in to the main repository.  We'll check that all tests pass, review the coding style, and check for general code correctness. If everything is OK, we'll merge your pull request and your code will be part of ravencore.
 
 If you have any questions feel free to post them to
-[github.com/RavenDevKit/ravencore/issues](https://github.com/RavenDevKit/ravencore/issues).
+[github.com/dataturk/ravencore/issues](https://github.com/dataturk/ravencore/issues).
 
 Thanks for your time and code!
